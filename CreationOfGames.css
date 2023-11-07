@@ -1,0 +1,78 @@
+body {
+    background-image: linear-gradient(to bottom, #FFFFFF, #810303);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #810303;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+h1 {  
+    background-color: #810303;
+    color: #000000;
+    font-size: 3em;
+    height: 50px;
+    background-image: url(COGlogo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+    width: 200px;
+    height: 700px;
+}
+
+nav a {
+   
+    display:flex;
+    color: #fff;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    flex-direction: column;
+    width: 200px;
+}
+.list-container {width: 100px;
+    margin-left: 20px;}
+
+nav a:hover {
+    background-color: #810303;
+}
+
+main {
+    padding: 20px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+footer {
+    background-color: #810303;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#column {display:flex;
+}
+#container{ flex: 1;
+padding: 30px;}
+#program {
+    background-image: url(program.jpg);
+    background-position: right;
+    margin-left: 300px;
+    background-size: 200% 100%;
+}
